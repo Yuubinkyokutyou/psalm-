@@ -9,6 +9,7 @@ use Psalm\Storage\UnserializeMemoryUsageSuppressionTrait;
 final class Aliases
 {
     use UnserializeMemoryUsageSuppressionTrait;
+    
 
     public ?int $namespace_first_stmt_start = null;
 
